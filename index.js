@@ -7,7 +7,7 @@ app.use(bodyParser.json())
 
 app.get('/api/hello', async (req, res) => {
 
-    res.send('Hello World')
+    res.send('Hello World') // hoppa
 })
 
 app.get('/api/env', async (req, res) => {
